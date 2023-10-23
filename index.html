@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="shortcut icon" href="" type="image/x-icon"> -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Oline Shop</title>
+  </head>
+
+  <body>
+    <!-- <div data-id="2" data-name="title" data-version="12.5"></div> -->
+    <header class="header">
+      <nav class="header-nav">
+        <div class="header-nav-top">
+          <a href="#/" class="header-nav-top-logo">
+            <img
+              src="./img/logotip.jpg"
+              class="header-nav-top-logo-image"
+              alt="logo"
+            />
+          </a>
+          <div class="header-nav-top-menu">
+            <i class="far fa-bars"></i>
+          </div>
+          <ul class="header-nav-top-list">
+            <li class="header-nav-top-item">
+              <a href="#/home" id="/home-link" class="header-nav-top-link">
+                <i class="fas fa-store header-nav-top-link-icon"></i>
+              </a>
+            </li>
+            <li class="header-nav-top-item">
+              <a href="#/bag" id="/bag-link" class="header-nav-top-link">
+                <i class="fas fa-shopping-bag header-nav-top-link-icon"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="header-nav-bottom">
+          <ul class="">
+            <li class="">
+              <a href="#!" class="">
+                <img src="./img/exit-logo.png" class="" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="article">
+      <form class="search_panel">
+        <input
+          class="search"
+          type="search"
+          id="searchInput"
+          placeholder="Search Product"
+        />
+        <div class="btns">
+          <button class="searchButton" id="searchButton">Search</button>
+          <button class="searchButton" id="clearButton">Clear</button>
+        </div>
+      </form>
+
+      <div class="article-group" id="content"></div>
+    </div>
+    <button class="menu_burger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+    <section class="card">
+      <div class="card-main">
+        <div class="card-main-title">Bag</div>
+      
+        <div class="card-main-product" id="card">
+          
+         
+          
+          
+          
+        </div>
+        <div class="card-main-all-price">
+          <h4 class="card-main-all-price">
+            Bag Total:&nbsp;$&nbsp;<span></span>
+          </h4>
+        </div>
+        <a href="#/bag" class="">
+          <button class="card-main-check-btn">
+            <i class="fas fa-shopping-bag card-main-check-btn-icon"></i>
+            <span class="card-main-check-btn-text">View Bag</span>
+          </button>
+        </a>
+      </div>
+    </section>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
